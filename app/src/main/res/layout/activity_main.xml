@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggle_btn"
+        android:textOff="wifi is on"
+        android:textOn="wifi is off"
+        android:textColor="@color/mycolor"
+        />
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_btn"
+        android:text="WIFI"
+        android:textOn="wifi is off"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:textOff="wifi is on"
+        android:checked="false"
+        android:textColor="@color/mycolor" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:text="Submit"
+        android:onClick="getallvalues"/>
+
+</LinearLayout>
